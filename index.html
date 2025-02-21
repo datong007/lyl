@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>生日快乐</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="birthdayCanvas"></canvas>
+    
+    <div class="birthday-text">
+        <h1>Happy Birthday</h1>
+        <p>愿刘永林女士永远充满欢乐与惊喜</p>
+    </div>
+
+    <div class="controls">
+        <button id="makeWish" class="glow-button">✨ 许愿</button>
+        <button id="lightCandle" class="glow-button">🕯️ 点蜡烛</button>
+    </div>
+
+    <div id="wishModal" class="modal">
+        <div class="modal-content">
+            <h2>✨ 生日愿望 ✨</h2>
+            <textarea placeholder="写下你的祝福..."></textarea>
+            <button id="sendWish" class="rainbow-button">发送祝福</button>
+        </div>
+    </div>
+    
+    <script src="birthday.js"></script>
+</body>
+</html> 
